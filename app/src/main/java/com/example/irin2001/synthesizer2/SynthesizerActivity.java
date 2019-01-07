@@ -11,3 +11,4 @@ public class SynthesizerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_synthesizer);
     }
 }
+//which part were we on in PLTW again?
