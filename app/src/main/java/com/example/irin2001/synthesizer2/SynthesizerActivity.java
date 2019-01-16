@@ -5,10 +5,13 @@ import android.os.Bundle;
 
 public class SynthesizerActivity extends AppCompatActivity {
 
+    setContentView(R.layout.activity_synthesizer) {
+        button1 = (Button)findViewById(R.id.button1);
+        button2 = (Button)findViewById(R.id.button2);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_synthesizer);
     }
 }
-//which part were we on in PLTW again?
