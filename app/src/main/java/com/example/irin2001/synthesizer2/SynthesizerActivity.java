@@ -2,8 +2,14 @@ package com.example.irin2001.synthesizer2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
+//step 1.2.4-   17
+public class SynthesizerActivity extends ActionBarActivity {
+    private static final String TAG =
+SynthesizerActivity.class.getName();
+    private Button button1;
+    private Button button2;
 
-public class SynthesizerActivity extends AppCompatActivity {
 
     setContentView(R.layout.activity_synthesizer) {
         button1 = (Button)findViewById(R.id.button1);
