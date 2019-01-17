@@ -3,7 +3,7 @@ package com.example.irin2001.synthesizer2;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
-//step 1.2.4-   17
+//step 1.2.4-   20
 public class SynthesizerActivity extends ActionBarActivity {
     private static final String TAG =
 SynthesizerActivity.class.getName();
