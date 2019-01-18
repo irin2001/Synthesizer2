@@ -2,8 +2,9 @@ package com.example.irin2001.synthesizer2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
-//step 1.2.4-   20
+//step 1.2.4-   Question: 20
 public class SynthesizerActivity extends ActionBarActivity {
     private static final String TAG =
 SynthesizerActivity.class.getName();
@@ -20,4 +21,5 @@ SynthesizerActivity.class.getName();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_synthesizer);
     }
+    public void onButtonClick1 Log.i(TAG, "Button 1 Clicked");
 }
