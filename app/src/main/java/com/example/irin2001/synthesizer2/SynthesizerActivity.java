@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
-//step 1.2.4-   Question: 20
+//step 1.2.4-   Question: 24
 public class SynthesizerActivity extends ActionBarActivity {
     private static final String TAG =
 SynthesizerActivity.class.getName();
