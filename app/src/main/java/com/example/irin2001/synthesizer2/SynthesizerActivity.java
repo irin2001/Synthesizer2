@@ -22,4 +22,6 @@ SynthesizerActivity.class.getName();
         setContentView(R.layout.activity_synthesizer);
     }
     public void onButtonClick1 Log.i(TAG, "Button 1 Clicked");
+
+    public void onButtonClick2 Log.i(TAG, "Button 2 Clicked");
 }
