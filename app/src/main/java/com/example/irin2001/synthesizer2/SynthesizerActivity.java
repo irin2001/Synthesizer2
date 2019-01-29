@@ -1,6 +1,6 @@
 package com.example.irin2001.synthesizer2;
 
-import android.support.v7.app.AppCompatActivity;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
@@ -17,7 +17,6 @@ private MediaPlayer PutMp3Here;
 private MediaPlayer PutMp3Here;
 private MediaPlayer PutMp3Here;
 
-@Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setConceptView(R.layout.activity_synthesizer);

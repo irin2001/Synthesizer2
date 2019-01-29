@@ -7,8 +7,7 @@
     tools:context=".SynthesizerActivity"
 
     android:paddingTop="16dp"
-    android:paddingRight="16dp"
-    tools:context=".SynthesizerActivity">
+    android:paddingRight="16dp">
 
     <Button
             android:id="@+id/button1"
