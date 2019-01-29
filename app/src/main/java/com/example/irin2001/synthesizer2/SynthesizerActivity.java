@@ -5,23 +5,46 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
 //step 1.2.4-   Question: 24
+
 public class SynthesizerActivity extends ActionBarActivity {
-    private static final String TAG =
-SynthesizerActivity.class.getName();
-    private Button button1;
-    private Button button2;
 
+private Button button1;
+private Button button2;
+private Button button3;
 
-    setContentView(R.layout.activity_synthesizer) {
-        button1 = (Button)findViewById(R.id.button1);
-        button2 = (Button)findViewById(R.id.button2);
-    }
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_synthesizer);
-    }
-    public void onButtonClick1 Log.i(TAG, "Button 1 Clicked");
+//mp3 part
+private MediaPlayer PutMp3Here;
+private MediaPlayer PutMp3Here;
+private MediaPlayer PutMp3Here;
 
-    public void onButtonClick2 Log.i(TAG, "Button 2 Clicked");
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setConceptView(R.layout.activity_synthesizer);
+
+    button1 = (Button)findViewById(R.id.button1);
+    button2 = (Button)findViewById(R.id.button2);
+    button3 = (Button)findViewById(R.id.button3);
+
+    PutMp3Here = MediaPlayer.create(this, R.raw.Gnome);
+    PutMp3Here = MediaPlayer.create(this, R.raw.Gnome);
+    PutMp3Here = MediaPlayer.create(this, R.raw.Gnome);
+}
+
+public void onButton1Click(View v) {
+    PutMp3Here.seekTo(0);
+    Log.e (TAG, "Button 1 Clicked");
+    PutMp3Here.start();
+}
+public void onButton2Click(View v) {
+    PutMp3Here.seekTo(0);
+    Log.e (TAG, "Button 2 Clicked");
+    PutMp3Here.start();
+}
+public void onButton3Click(View v) {
+    PutMp3Here.seekTo(0);
+    Log.e (TAG, "Button 3 Clicked");
+    PutMp3Here.start();
+}
+
 }
