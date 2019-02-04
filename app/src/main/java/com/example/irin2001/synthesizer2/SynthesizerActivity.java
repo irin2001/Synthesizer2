@@ -23,7 +23,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
     button1 = (Button)findViewById(R.id.button1);
     button2 = (Button)findViewById(R.id.button2);
-    button3 = (Button)findViewById(R.id.button3);
+    //button3 = (Button)findViewById(R.id.button3);
 
     PutMp3Here = MediaPlayer.create(this, R.raw.Gnome);
     PutMp3Here = MediaPlayer.create(this, R.raw.Gnome);
